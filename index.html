@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturaleza Viva</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f0fdf4;
+      color: #1b4332;
+    }
+
+    header {
+      background: linear-gradient(to right, #2d6a4f, #40916c);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #1b4332;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #95d5b2;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .imagenes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .imagenes img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+
+    .imagenes img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #2d6a4f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    button {
+      background: #40916c;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #2d6a4f;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🌿 Naturaleza Viva</h1>
+  <p>Cuidemos nuestro planeta</p>
+</header>
+
+<nav>
+  <a href="#bosques">Bosques</a>
+  <a href="#oceanos">Océanos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="bosques">
+  <h2>🌳 Bosques</h2>
+  <p>Los bosques son el pulmón del planeta y hogar de miles de especies.</p>
+
+  <div class="imagenes">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Bosque">
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Selva">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Montañas">
+  </div>
+
+  <button onclick="alert('¡Gracias por cuidar la naturaleza! 🌎')">
+    Apoya el Medio Ambiente
+  </button>
+</section>
+
+<section id="oceanos">
+  <h2>🌊 Océanos</h2>
+  <p>Los océanos cubren más del 70% de la Tierra y regulan el clima.</p>
+
+  <div class="imagenes">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Océano">
+    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="Mar">
+    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b" alt="Tortuga Marina">
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>📩 Contacto</h2>
+  <p>Email: naturalezaviva@gmail.com</p>
+  <p>Síguenos en redes sociales</p>
+</section>
+
+<footer>
+  © 2026 Naturaleza Viva | Proyecto educativo
+</footer>
+
+</body>
+  </html>
